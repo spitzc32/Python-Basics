@@ -11,3 +11,15 @@ class Car:
         self.year = year
         self.make = make
         self.model = model
+    
+    def age(self):
+        return 2019 - self.year
+
+
+def main():
+    car = Car(1900,"Dunno","Dunno")
+    print(car.age())    
+
+if __name__ == "__main__":
+    main()
+
